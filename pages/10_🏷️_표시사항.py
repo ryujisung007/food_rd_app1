@@ -60,7 +60,7 @@ with st.sidebar:
         st.markdown(f"**학습된 문서:** {len(st.session_state.label_pdf_text):,}자")
 
     st.markdown("---")
-    st.link_button("📖 식품등의 표시기준 원문", "https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000231887", use_container_width=True)
+    st.link_button("📖 식품등의 표시기준 원문", "https://www.law.go.kr/%ED%96%89%EC%A0%95%EA%B7%9C%EC%B9%99/%EC%8B%9D%ED%92%88%EB%93%B1%EC%9D%98%20%ED%91%9C%EC%8B%9C%EA%B8%B0%EC%A4%80", use_container_width=True)
     st.link_button("🔗 식품안전나라", "https://www.foodsafetykorea.go.kr", use_container_width=True)
 
 # ━━━ 탭 ━━━
